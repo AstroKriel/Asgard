@@ -4,9 +4,3 @@
 [submodule "Sindri"]
 	path = Sindri
 	url = git@github.com:AstroKriel/Sindri.git
-[submodule "Loki"]
-	path = Loki
-	url = git@github.com:AstroKriel/Loki.git
-[submodule "Thor"]
-	path = Thor
-	url = git@github.com:AstroKriel/Thor.git
