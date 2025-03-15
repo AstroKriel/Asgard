@@ -1,6 +1,6 @@
 [submodule "Mimir"]
 	path = Mimir
-	url = git@github.com:AstroKriel/Mimir.git
+	url = git@github.com:AstroKriel/Papers.git
 [submodule "Sindri"]
 	path = Sindri
-	url = git@github.com:AstroKriel/Sindri.git
+	url = git@github.com:AstroKriel/ScienceRoutines.git
