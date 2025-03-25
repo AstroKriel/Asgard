@@ -1,6 +1,0 @@
-[submodule "Mimir"]
-	path = Mimir
-	url = git@github.com:AstroKriel/Mimir.git
-[submodule "Sindri"]
-	path = Sindri
-	url = git@github.com:AstroKriel/Sindri.git
