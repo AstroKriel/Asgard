@@ -1,0 +1,12 @@
+[project]
+name = "asgard"
+version = "0.1.0"
+description = "asgard: home of my science"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "sindri",
+]
+
+[tool.uv.sources]
+sindri = { path = "sindri" }

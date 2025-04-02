@@ -1,0 +1,35 @@
+version = 1
+revision = 1
+requires-python = ">=3.11"
+
+[manifest]
+members = [
+    "asgard",
+    "mimir",
+    "sindri",
+]
+
+[[package]]
+name = "asgard"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "mimir" },
+    { name = "sindri" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "mimir", virtual = "Mimir" },
+    { name = "sindri", virtual = "Sindri" },
+]
+
+[[package]]
+name = "mimir"
+version = "0.1.0"
+source = { virtual = "Mimir" }
+
+[[package]]
+name = "sindri"
+version = "0.1.0"
+source = { virtual = "Sindri" }
