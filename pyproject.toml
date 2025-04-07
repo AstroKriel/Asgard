@@ -5,8 +5,12 @@ description = "asgard: home of my science"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-  "sindri",
+  "loki",
+  "bifrost",
+  "vegtamr",
 ]
 
 [tool.uv.sources]
-sindri = { path = "sindri" }
+loki = { path = "sindri/loki" }
+bifrost = { path = "sindri/bifrost" }
+vegtamr = { path = "sindri/vegtamr" }
