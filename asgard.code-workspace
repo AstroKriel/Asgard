@@ -1,0 +1,33 @@
+{
+	"folders": [
+    {
+      "name": "asgard",
+      "path": "."
+    },
+    {
+      "name": "kriel_2025_ssd_nl",
+      "path": "mimir/kriel_2025_ssd_nl"
+    },
+    {
+      "name": "freyja",
+      "path": "freyja"
+    },
+    {
+      "name": "sindri",
+      "path": "sindri"
+    },
+    {
+      "name": "bifrost",
+      "path": "sindri/bifrost"
+    },
+    {
+      "name": "loki",
+      "path": "sindri/loki"
+    },
+    {
+      "name": "vegtamr",
+      "path": "sindri/vegtamr"
+    }
+  ],
+  "settings": {}
+}
