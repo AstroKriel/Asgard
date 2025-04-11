@@ -17,16 +17,24 @@
       "path": "sindri"
     },
     {
+      "name": "jormungandr",
+      "path": "sindri/jormungandr"
+    },
+    {
       "name": "bifrost",
       "path": "sindri/bifrost"
+    },
+    {
+      "name": "vegtamr",
+      "path": "sindri/vegtamr"
     },
     {
       "name": "loki",
       "path": "sindri/loki"
     },
     {
-      "name": "vegtamr",
-      "path": "sindri/vegtamr"
+      "name": "thor",
+      "path": "sindri/thor"
     }
   ],
   "settings": {}
