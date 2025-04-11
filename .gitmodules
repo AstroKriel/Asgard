@@ -4,3 +4,6 @@
 [submodule "Sindri"]
 	path = sindri
 	url = git@github.com:AstroKriel/ScienceRoutines.git
+[submodule "freyja"]
+	path = freyja
+	url = git@github.com:AstroKriel/Sandbox.git
