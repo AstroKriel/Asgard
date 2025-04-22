@@ -17,24 +17,32 @@
       "path": "sindri"
     },
     {
-      "name": "jormungandr",
-      "path": "sindri/jormungandr"
+      "name": "bifrost",
+      "path": "sindri/python/bifrost"
     },
     {
-      "name": "bifrost",
-      "path": "sindri/bifrost"
+      "name": "jormi",
+      "path": "sindri/python/jormi"
     },
     {
       "name": "vegtamr",
-      "path": "sindri/vegtamr"
+      "path": "sindri/python/vegtamr"
+    },
+    {
+      "name": "frigg",
+      "path": "sindri/julia/frigg"
     },
     {
       "name": "loki",
-      "path": "sindri/loki"
+      "path": "sindri/julia/loki"
     },
     {
       "name": "thor",
-      "path": "sindri/thor"
+      "path": "sindri/julia/thor"
+    },
+    {
+      "name": "valkyrja",
+      "path": "sindri/julia/valkyrja"
     }
   ],
   "settings": {}
