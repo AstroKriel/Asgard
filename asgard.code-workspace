@@ -1,47 +1,59 @@
 {
 	"folders": [
     {
-      "name": "asgard",
+      "name": "Home (/asgard)",
       "path": "."
     },
     {
-      "name": "kriel_2025_ssd_nl",
+      "name": "Kriel2025: SSD backreaction",
       "path": "mimir/kriel_2025_ssd_nl"
     },
     {
-      "name": "freyja",
+      "name": "Sandbox",
       "path": "freyja"
     },
     {
-      "name": "sindri",
-      "path": "sindri"
+      "name": "Python Routines",
+      "path": "sindri/python"
     },
     {
-      "name": "bifrost",
-      "path": "sindri/python/bifrost"
+      "name": "Working With Flash (Python)",
+      "path": "sindri/python/ww_flash_sims"
     },
     {
-      "name": "jormi",
-      "path": "sindri/python/jormi"
+      "name": "Working With Quokka (Python)",
+      "path": "sindri/python/ww_quokka_sims"
     },
     {
-      "name": "vegtamr",
-      "path": "sindri/python/vegtamr"
+      "name": "Tools (Python)",
+      "path": "sindri/python/submodules/jormi"
     },
     {
-      "name": "frigg",
+      "name": "HDF5 Data Manager (Python)",
+      "path": "sindri/python/submodules/bifrost"
+    },
+    {
+      "name": "Line Integral Convolution (Python)",
+      "path": "sindri/python/submodules/vegtamr"
+    },
+    {
+      "name": "Julia Routines",
+      "path": "sindri/julia"
+    },
+    {
+      "name": "Tools (Julia)",
       "path": "sindri/julia/frigg"
     },
     {
-      "name": "loki",
+      "name": "Power Spectra (Julia)",
       "path": "sindri/julia/loki"
     },
     {
-      "name": "thor",
+      "name": "Field Correlations (Julia)",
       "path": "sindri/julia/thor"
     },
     {
-      "name": "valkyrja",
+      "name": "Energy Transfer (Julia)",
       "path": "sindri/julia/valkyrja"
     }
   ],
