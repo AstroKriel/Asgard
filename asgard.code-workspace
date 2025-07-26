@@ -1,61 +1,19 @@
 {
 	"folders": [
     {
-      "name": "Home (/asgard)",
-      "path": "."
-    },
-    {
       "name": "Kriel2025: SSD backreaction",
       "path": "mimir/kriel_2025_ssd_nl"
-    },
-    {
-      "name": "Sandbox",
-      "path": "freyja"
-    },
-    {
-      "name": "Python Routines",
-      "path": "sindri/python"
     },
     {
       "name": "Working With Flash (Python)",
       "path": "sindri/python/ww_flash_sims"
     },
     {
-      "name": "Working With Quokka (Python)",
-      "path": "sindri/python/ww_quokka_sims"
-    },
-    {
       "name": "Tools (Python)",
       "path": "sindri/python/submodules/jormi"
-    },
-    {
-      "name": "HDF5 Data Manager (Python)",
-      "path": "sindri/python/submodules/bifrost"
-    },
-    {
-      "name": "Line Integral Convolution (Python)",
-      "path": "sindri/python/submodules/vegtamr"
-    },
-    {
-      "name": "Julia Routines",
-      "path": "sindri/julia"
-    },
-    {
-      "name": "Tools (Julia)",
-      "path": "sindri/julia/frigg"
-    },
-    {
-      "name": "Power Spectra (Julia)",
-      "path": "sindri/julia/loki"
-    },
-    {
-      "name": "Field Correlations (Julia)",
-      "path": "sindri/julia/thor"
-    },
-    {
-      "name": "Energy Transfer (Julia)",
-      "path": "sindri/julia/valkyrja"
     }
   ],
-  "settings": {}
+  "settings": {
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python"
+  }
 }
