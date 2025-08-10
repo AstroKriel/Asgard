@@ -5,6 +5,10 @@
       "path": "."
     },
     {
+      "name": "Projects (Mimir)",
+      "path": "mimir"
+    },
+    {
       "name": "Kriel2025: SSD backreaction",
       "path": "mimir/kriel_2025_ssd_nl"
     },
@@ -19,10 +23,6 @@
     {
       "name": "Science Routines (Sindri)",
       "path": "sindri"
-    },
-    {
-      "name": "Python Routines",
-      "path": "sindri/python"
     },
     {
       "name": "Working With Flash",
@@ -43,10 +43,6 @@
     {
       "name": "Line Integral Convolution (Vegtamr)",
       "path": "sindri/python/submodules/vegtamr"
-    },
-    {
-      "name": "Julia Routines",
-      "path": "sindri/julia"
     },
     {
       "name": "Julia Tools (Frigg)",
