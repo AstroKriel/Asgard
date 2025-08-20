@@ -7,3 +7,7 @@
 [submodule "freyja"]
 	path = freyja
 	url = git@github.com:AstroKriel/Sandbox.git
+[submodule "ratatosk"]
+	path = ratatosk
+	url = git@github.com:AstroKriel/ShellTools.git
+	branch = main
