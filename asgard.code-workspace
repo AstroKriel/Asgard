@@ -17,6 +17,10 @@
       "path": "mimir/kriel_2025_quokka_mhd"
     },
     {
+      "name": "Shell Tools (Ratatosk)",
+      "path": "ratatosk"
+    },
+    {
       "name": "Sandbox (Freyja)",
       "path": "freyja"
     },
