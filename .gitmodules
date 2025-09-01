@@ -3,7 +3,7 @@
 	url = git@github.com:AstroKriel/Mimir.git
 [submodule "sindri"]
 	path = sindri
-	url = git@github.com:AstroKriel/ScienceRoutines.git
+	url = git@github.com:AstroKriel/PythonRoutines.git
 [submodule "freyja"]
 	path = freyja
 	url = git@github.com:AstroKriel/Sandbox.git
