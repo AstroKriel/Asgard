@@ -11,6 +11,3 @@
 	path = ratatosk
 	url = git@github.com:AstroKriel/ShellTools.git
 	branch = main
-[submodule "submodules/brokkr"]
-	path = submodules/brokkr
-	url = git@github.com:AstroKriel/JuliaRoutines.git
