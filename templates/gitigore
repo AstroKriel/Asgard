@@ -5,7 +5,7 @@ venv/
 dist/
 **.egg-info/
 
-## extraneous files
+## extraneous MacOS files
 .DS_Store
 __pycache__/
 

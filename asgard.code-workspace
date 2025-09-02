@@ -1,73 +1,79 @@
 {
-	"folders": [
-    {
-      "name": "Home (/asgard)",
-      "path": "."
-    },
-    {
-      "name": "Projects (Mimir)",
-      "path": "mimir"
-    },
-    {
-      "name": "Kriel2025: SSD backreaction",
-      "path": "mimir/kriel_2025_ssd_nl"
-    },
-    {
-      "name": "Kriel2025: Magnetising Quokka",
-      "path": "mimir/kriel_2025_quokka_mhd"
-    },
-    {
-      "name": "Shell Tools (Ratatosk)",
-      "path": "ratatosk"
-    },
-    {
-      "name": "Sandbox (Freyja)",
-      "path": "freyja"
-    },
-    {
-      "name": "Science Routines (Sindri)",
-      "path": "sindri"
-    },
-    {
-      "name": "Working With Flash",
-      "path": "sindri/python/ww_flash_sims"
-    },
-    {
-      "name": "Working With Quokka",
-      "path": "sindri/python/ww_quokka_sims"
-    },
-    {
-      "name": "Python Tools (Jormi)",
-      "path": "sindri/python/submodules/jormi"
-    },
-    {
-      "name": "HDF5 Data Manager (Bifrost)",
-      "path": "sindri/python/submodules/bifrost"
-    },
-    {
-      "name": "Line Integral Convolution (Vegtamr)",
-      "path": "sindri/python/submodules/vegtamr"
-    },
-    {
-      "name": "Julia Tools (Frigg)",
-      "path": "sindri/julia/frigg"
-    },
-    {
-      "name": "Power Spectra (Loki)",
-      "path": "sindri/julia/loki"
-    },
-    {
-      "name": "Field Correlations (Thor)",
-      "path": "sindri/julia/thor"
-    },
-    {
-      "name": "Energy Transfer (Valkyrja)",
-      "path": "sindri/julia/valkyrja"
+    "folders": [
+        {
+            "name": "○ Home (/asgard)",
+            "path": "."
+        },
+        {
+            "name": "○ Projects (Mimir)",
+            "path": "mimir"
+        },
+        {
+            "name": "↪ Kriel2025: SSD backreaction",
+            "path": "mimir/kriel_2025_ssd_nl"
+        },
+        {
+            "name": "↪ Kriel2025: Magnetising Quokka",
+            "path": "mimir/kriel_2025_quokka_mhd"
+        },
+        {
+            "name": "○ Shell Tools (Ratatosk)",
+            "path": "ratatosk"
+        },
+        {
+            "name": "○ Sandbox (Freyja)",
+            "path": "freyja"
+        },
+        {
+            "name": "○ Python Routines (Sindri)",
+            "path": "sindri"
+        },
+        {
+            "name": "↪ Python Helpers (Jormi)",
+            "path": "sindri/submodules/jormi"
+        },
+        {
+            "name": "↪ HDF5 Data Manager (Bifrost)",
+            "path": "sindri/submodules/bifrost"
+        },
+        {
+            "name": "↪ Line Integral Convolution (Vegtamr)",
+            "path": "sindri/submodules/vegtamr"
+        },
+        {
+            "name": "↪ Working With Flash",
+            "path": "sindri/submodules/ww_flash_sims"
+        },
+        {
+            "name": "↪ Working With Quokka",
+            "path": "sindri/submodules/ww_quokka_sims"
+        },
+        {
+            "name": "○ Julia Routines (Brokkr)",
+            "path": "brokkr"
+        },
+        {
+            "name": "↪ Julia Helpers (Frigg)",
+            "path": "brokkr/submodules/JuliaHelpers"
+        },
+        {
+            "name": "↪ Power Spectra (Loki)",
+            "path": "brokkr/submodules/PowerSpectra/"
+        },
+        {
+            "name": "↪ Correlation Functions (Thor)",
+            "path": "brokkr/submodules/CorrelationFunctions/"
+        },
+        {
+            "name": "↪ Energy Transfer (Valkyrja)",
+            "path": "brokkr/submodules/EnergyTransfer/"
+        }
+    ],
+    "settings": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": false,
+        "editor.detectIndentation": false,
+        "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python"
     }
-  ],
-  "settings": {
-    "editor.tabSize": 2,
-    "editor.insertSpaces": true,
-    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python"
-  }
 }
