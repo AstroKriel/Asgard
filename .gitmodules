@@ -1,12 +1,15 @@
 [submodule "mimir"]
 	path = mimir
 	url = git@github.com:AstroKriel/Mimir.git
+	branch = main
 [submodule "sindri"]
 	path = sindri
 	url = git@github.com:AstroKriel/PythonRoutines.git
+	branch = main
 [submodule "freyja"]
 	path = freyja
 	url = git@github.com:AstroKriel/Sandbox.git
+	branch = main
 [submodule "ratatosk"]
 	path = ratatosk
 	url = git@github.com:AstroKriel/ShellTools.git
@@ -14,3 +17,4 @@
 [submodule "brokkr"]
 	path = brokkr
 	url = git@github.com:AstroKriel/JuliaRoutines.git
+	branch = main
