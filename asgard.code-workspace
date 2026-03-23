@@ -17,12 +17,12 @@
             "path": "mimir"
         },
         {
-            "name": "↪ Kriel2025: Magnetising Quokka",
-            "path": "mimir/kriel_2025_quokka_mhd"
+            "name": "↪ Kriel2026: Magnetising Quokka",
+            "path": "mimir/kriel_2026_quokka_mhd"
         },
         {
-            "name": "↪ Kriel2025: SSD backreaction",
-            "path": "mimir/kriel_2025_ssd_nl"
+            "name": "↪ Kriel2026: SSD backreaction",
+            "path": "mimir/kriel_2026_ssd_nl"
         },
         {
             "name": "○ Python Routines (Sindri)",
