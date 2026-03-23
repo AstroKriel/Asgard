@@ -17,13 +17,13 @@ git submodule update --init --recursive
 
 ### Keeping everything up to date
 
-To pull the latest changes for every submodule (this is also needed after a fresh clone), then run:
+To pull the latest changes for every submodule (this is also needed after a fresh clone), run:
 
 ```bash
 git submodule update --remote --recursive
 ```
 
-If this aborts due to local changes in some of the submodules, first stash those changes:
+If this aborts because there are local changes in some of the submodules, then stash those changes before updating, like so:
 
 ```bash
 git -C path/to/submodule stash
