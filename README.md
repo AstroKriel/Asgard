@@ -2,7 +2,7 @@
 
 ### Cloning
 
-Asgard uses recursive Git submodules. Clone it with all submodules in one shot:
+Asgard uses recursive Git submodules. Clone it and its submodules in one shot:
 
 ```bash
 git clone --recurse-submodules git@github.com:AstroKriel/Asgard.git
@@ -17,7 +17,7 @@ git submodule update --init --recursive
 
 ### Keeping everything up to date
 
-To pull the latest `main` for every submodule (including after a fresh clone):
+To pull the latest changes for every submodule (this is also needed after a fresh clone), then run:
 
 ```bash
 git submodule update --remote --recursive
