@@ -22,13 +22,19 @@ If you clone without passing `--recurse-submodules`, then initialise and fetch t
 git submodule update --init --recursive
 ```
 
-Either way, submodules will be left in a detached HEAD state after cloning. To put all submodules (including nested ones) on `main`, run from the repo root:
+Either way, submodules will be left in a detached HEAD state after cloning. To put all submodules (including nested ones) on their default branch, run from the repo root:
 
 ```bash
-./checkout_mains.sh
+./tools/checkout_default_branches.sh
 ```
 
 > **Note:** Never work in a detached HEAD state — always run this after cloning or updating.
+
+To inspect the state of every repo and submodule (branch, commit, or detached):
+
+```bash
+./tools/show_repo_states.sh
+```
 
 ### Keeping everything up to date
 
