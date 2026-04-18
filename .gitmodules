@@ -1,6 +1,6 @@
 [submodule "mimir"]
 	path = mimir
-	url = git@github.com:AstroKriel/Mimir.git
+	url = git@github.com:AstroKriel/ScienceVault.git
 	branch = main
 [submodule "sindri"]
 	path = sindri
