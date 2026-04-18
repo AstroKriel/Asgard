@@ -1,5 +1,12 @@
 # Asgard (home to all of my science)
 
+### Naming conventions
+
+Folders use hyphens (`my-project`, `ww-flash-sims`) except where Python requires underscores. Specifically:
+
+- Importable Python packages must use underscores (`ww_flash_sims`, `sindri_cli`) because hyphens are not valid Python identifiers
+- Everything else — repo names, submodule paths, project directories — uses hyphens
+
 ### Cloning
 
 Asgard uses recursive Git submodules. Clone it and its submodules in one shot:
@@ -14,6 +21,14 @@ If you clone without passing `--recurse-submodules`, then initialise and fetch t
 ```bash
 git submodule update --init --recursive
 ```
+
+Either way, submodules will be left in a detached HEAD state after cloning. To put all submodules (including nested ones) on `main`, run from the repo root:
+
+```bash
+./checkout_mains.sh
+```
+
+> **Note:** Never work in a detached HEAD state — always run this after cloning or updating.
 
 ### Keeping everything up to date
 
