@@ -1,11 +1,6 @@
 # Asgard (home to all of my science)
 
-### Naming conventions
-
-Folders use hyphens (`my-project`, `ww-flash-sims`) except where Python requires underscores. Specifically:
-
-- Importable Python packages must use underscores (`ww_flash_sims`, `sindri_cli`) because hyphens are not valid Python identifiers
-- Everything else — repo names, submodule paths, project directories — uses hyphens
+Asgard is the root of my science workflow, tying together my research projects (`mimir`), Python workflows (`sindri`), Julia tools (`brokkr`), and shell utilities for setting up on remote machines (`ratatosk`).
 
 ### Cloning
 
@@ -16,38 +11,50 @@ git clone --recurse-submodules git@github.com:AstroKriel/Asgard.git
 cd Asgard
 ```
 
-If you clone without passing `--recurse-submodules`, then initialise and fetch the latest submodule changes using:
+If, by mistake, you clone without passing `--recurse-submodules`, then initialise and fetch the latest submodule changes using:
 
 ```bash
 git submodule update --init --recursive
 ```
 
-Either way, submodules will be left in a detached HEAD state after cloning. To put all submodules (including nested ones) on their default branch, run from the repo root:
+After cloning, submodules will be left in a detached HEAD state. I provide three useful tools under `tools/` to help inspect and keep everything up to date:
+
+| Script | Purpose |
+|---|---|
+| `show_repo_states.sh` | Shows the current branch and commit for every repo and submodule, or flags if it is in a detached HEAD state |
+| `checkout_repo_defaults.sh` | Checks every submodule out onto its remote default branch (run this after cloning) |
+| `update_repo_remotes.sh` | Pulls in the latest remote commits for every submodule |
+
+> **Note:** You should never work in a detached HEAD state; always run `checkout_repo_defaults.sh` after cloning or after pulling changes that update submodule pointers.
+
+After cloning, run:
 
 ```bash
-./tools/checkout_default_branches.sh
-```
-
-> **Note:** Never work in a detached HEAD state — always run this after cloning or updating.
-
-To inspect the state of every repo and submodule (branch, commit, or detached):
-
-```bash
-./tools/show_repo_states.sh
+./tools/checkout_repo_defaults.sh
+./tools/update_repo_remotes.sh
 ```
 
 ### Keeping everything up to date
 
-To pull the latest changes for every submodule (this is also needed after a fresh clone), run:
+To pull the latest changes for all submodules, run:
 
 ```bash
-git submodule update --remote --recursive
+./tools/update_repo_remotes.sh
 ```
 
-If this aborts because there are local changes in some of the submodules, then stash those changes before updating, like so:
+If a submodule has local uncommitted changes, `update_repo_remotes.sh` will skip it and flag it in the output rather than aborting, so it is always safe to run.
 
-```bash
-git -C path/to/submodule stash
-git submodule update --remote --recursive
-git -C path/to/submodule stash pop
+### Naming conventions
+
+Multi-word folders use hyphens (`ww-quokka-sims`, `kriel-2026-ssd-nl`), except for importable Python packages which must use underscores (`ww_quokka_sims`, `sindri_cli`) since hyphens are not valid Python identifiers.
+
+### File structure
+
+```
+Asgard/
+├── mimir/     # research projects
+├── sindri/    # Python workflows
+├── brokkr/    # Julia tools
+├── ratatosk/  # tools for working on remote machines
+└── tools/     # scripts for managing this repo
 ```
