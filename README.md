@@ -17,13 +17,14 @@ If, by mistake, you clone without passing `--recurse-submodules`, then initialis
 git submodule update --init --recursive
 ```
 
-After cloning, submodules will be left in a detached HEAD state. I provide three useful tools under `tools/` to help inspect and keep everything up to date:
+After cloning, submodules will be left in a detached HEAD state. I provide a few command line tools under `tools/` to help keep everything up to date:
 
 | Script | Purpose |
 |---|---|
 | `show_repo_states.sh` | Shows the current branch and commit for every repo and submodule, or flags if it is in a detached HEAD state |
 | `checkout_repo_defaults.sh` | Checks every submodule out onto its remote default branch (run this after cloning) |
 | `update_repo_remotes.sh` | Pulls in the latest remote commits for every submodule |
+| `push_repo_commits.sh` | Pushes all unpushed commits in every submodule and the root repo |
 
 > **Note:** You should never work in a detached HEAD state; always run `checkout_repo_defaults.sh` after cloning or after pulling changes that update submodule pointers.
 
@@ -43,6 +44,14 @@ To pull the latest changes for all submodules, run:
 ```
 
 If a submodule has local uncommitted changes, `update_repo_remotes.sh` will skip it and flag it in the output rather than aborting, so it is always safe to run.
+
+To push all unpushed commits across every submodule and the root repo, run:
+
+```bash
+./tools/push_repo_commits.sh
+```
+
+Submodules are pushed before the root so that no parent pointer ever references a commit that has not yet been pushed to the remote.
 
 ### Naming conventions
 
