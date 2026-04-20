@@ -11,7 +11,7 @@ git clone --recurse-submodules git@github.com:AstroKriel/Asgard.git
 cd Asgard
 ```
 
-If, by mistake, you clone without passing `--recurse-submodules`, then initialise and fetch the latest submodule changes using:
+If, by mistake, you cloned without passing `--recurse-submodules`, then initialise and fetch the latest submodule changes using:
 
 ```bash
 git submodule update --init --recursive
