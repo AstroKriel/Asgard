@@ -24,7 +24,16 @@ report_repo_state() {
     if [ -z "$current_branch" ]; then
         echo "  DETACHED @ $current_commit"
     else
-        echo "  branch: $current_branch @ $current_commit"
+        local ahead_behind
+        ahead_behind=$(git -C "$repo_path" rev-list --left-right --count HEAD...@{upstream} 2>/dev/null || echo "")
+        if [ -n "$ahead_behind" ]; then
+            local ahead behind
+            ahead=$(echo "$ahead_behind" | awk '{print $1}')
+            behind=$(echo "$ahead_behind" | awk '{print $2}')
+            echo "  branch: $current_branch @ $current_commit (+${ahead} / -${behind})"
+        else
+            echo "  branch: $current_branch @ $current_commit"
+        fi
     fi
     echo ""
 }
