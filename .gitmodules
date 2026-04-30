@@ -10,8 +10,8 @@
 	path = freyja
 	url = git@github.com:AstroKriel/Sandbox.git
 	branch = main
-[submodule "ratatosk"]
-	path = ratatosk
+[submodule "ratatoskr"]
+	path = ratatoskr
 	url = git@github.com:AstroKriel/ShellTools.git
 	branch = main
 [submodule "brokkr"]
