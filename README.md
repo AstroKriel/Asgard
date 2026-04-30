@@ -26,14 +26,7 @@ After cloning, submodules will be left in a detached HEAD state. I provide a few
 | `update_repo_remotes.sh` | Pulls in the latest remote commits for every submodule |
 | `push_repo_commits.sh` | Pushes all unpushed commits in every submodule and the root repo |
 
-> **Note:** You should never work in a detached HEAD state; always run `checkout_repo_defaults.sh` after cloning or after pulling changes that update submodule pointers.
-
-After cloning, run:
-
-```bash
-./tools/checkout_repo_defaults.sh
-./tools/update_repo_remotes.sh
-```
+> **Note:** You should never work in a detached HEAD state; always run `checkout_repo_defaults.sh` and `update_repo_remotes.sh` after cloning or after pulling changes that update submodule pointers.
 
 ### Keeping everything up to date
 
@@ -52,10 +45,6 @@ To push all unpushed commits across every submodule and the root repo, run:
 ```
 
 Submodules are pushed before the root so that no parent pointer ever references a commit that has not yet been pushed to the remote.
-
-### Naming conventions
-
-Multi-word folders use hyphens (`ww-quokka-sims`, `kriel-2026-ssd-nl`), except for importable Python packages which must use underscores (`ww_quokka_sims`, `sindri_cli`) since hyphens are not valid Python identifiers.
 
 ### File structure
 
