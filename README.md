@@ -33,6 +33,16 @@ After cloning, submodules will be left in a detached HEAD state. I provide a few
 To pull the latest changes for all submodules, run:
 
 ```bash
+./tools/checkout_repo_defaults.sh
+```
+
+This checks each submodule out onto its remote default branch. Do this before
+updating, especially after a fresh clone or after pulling root-repo changes that
+move submodule pointers.
+
+Then update all checked-out repos:
+
+```bash
 ./tools/update_repo_remotes.sh
 ```
 
