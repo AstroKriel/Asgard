@@ -10,10 +10,12 @@
 	path = freyja
 	url = git@github.com:AstroKriel/Sandbox.git
 	branch = main
+	ignore = all
 [submodule "ratatoskr"]
 	path = ratatoskr
 	url = git@github.com:AstroKriel/ShellTools.git
 	branch = main
+	ignore = all
 [submodule "brokkr"]
 	path = brokkr
 	url = git@github.com:AstroKriel/JuliaRoutines.git
