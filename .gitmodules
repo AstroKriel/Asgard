@@ -20,3 +20,7 @@
 	path = brokkr
 	url = git@github.com:AstroKriel/JuliaRoutines.git
 	branch = main
+[submodule "bragi"]
+	path = bragi
+	url = git@github.com:AstroKriel/LatexTemplates.git
+	branch = main
