@@ -63,6 +63,7 @@ Asgard/
 ├── mimir/     # research projects
 ├── sindri/    # Python workflows
 ├── brokkr/    # Julia tools
-├── ratatosk/  # tools for working on remote machines
+├── bragi/     # LaTeX writing templates
+├── ratatoskr/ # tools for working on remote machines
 └── tools/     # scripts for managing this repo
 ```
