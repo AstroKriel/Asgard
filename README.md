@@ -58,12 +58,13 @@ Submodules are pushed before the root so that no parent pointer ever references 
 
 ### File structure
 
-```
+```text
 Asgard/
-├── mimir/     # research projects
-├── sindri/    # Python workflows
-├── brokkr/    # Julia tools
-├── bragi/     # LaTeX writing templates
-├── ratatoskr/ # tools for working on remote machines
-└── tools/     # scripts for managing this repo
+├── bragi/  # LaTeX writing templates
+├── brokkr/  # Julia tools
+├── freyja/  # prototyping sandbox
+├── mimir/  # research projects
+├── ratatoskr/  # tools for working on remote machines
+├── sindri/  # Python workflows
+└── tools/  # scripts for managing this repo
 ```
